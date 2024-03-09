@@ -92,7 +92,7 @@ const admin = async (req, res) => {
   let query = ''; // Declare query variable outside of if-else chain
   let message='';
   if(tableName === 'KeyInfo'){
-    query = `INSERT INTO KeyInfo (ContainerID, ProductCategory, Industry, HandlingCompany, Shipper) VALUES ?;`
+    query = `INSERT INTO KeyInfo (ContainerID, ProductCategory, Industry, HandlingCompany, Shipper, Location) VALUES ?;`
   }
   else if (tableName === 'Origin'){
     query = `INSERT INTO Origin (ContainerID, Origin, ProductCategory, Contents, Shipper, ShippingDate, Contact1) VALUES ?;`
