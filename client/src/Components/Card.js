@@ -9,7 +9,7 @@ const Card = () => {
 
   const cardStyles = {
     width: '600px',
-    height:'500px',
+    height:'550px',
     margin: '50px auto',
     padding: '20px',
     borderRadius: '10px',
